@@ -1,0 +1,34 @@
+.quality {
+  width: 100% - 106px;
+  background-color: #faf3ea;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 100px 53px;
+}
+
+.quality .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.quality .description {
+  margin-left: 10px;
+}
+
+.quality .description .title {
+  color: #242424;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 150%; /* 37.5px */
+  text-align: left;
+}
+
+.quality .description .body {
+  color: var(--color-gray-3, #898989);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+  text-align: left;
+}

@@ -1,0 +1,101 @@
+.contact .header {
+  margin-top: 98px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact .header h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.contact .header p {
+  color: #9f9f9f;
+  font-size: 16px;
+  display: inline-block;
+  width: 644px;
+  margin-bottom: 14px;
+}
+
+.contact .body {
+  width: 1058px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact .body .form {
+  width: 531px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 63px 52px;
+  padding-top: 119px;
+}
+
+.contact .body .form label {
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+
+.contact .body .form input,
+.contact .body .form textarea {
+  border-radius: 10px;
+  border: 1px solid #9f9f9f;
+  padding: 26px 30px;
+  margin-bottom: 36px;
+}
+
+.contact .body .form textarea {
+  padding-bottom: 70px;
+  margin-bottom: 49px;
+}
+
+.contact .body .form button {
+  border-radius: 5px;
+  border: 1px solid var(--primary, #b88e2f);
+  background: var(--primary, #b88e2f);
+  padding: 13.75px 89px;
+  cursor: pointer;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+
+  width: 237px;
+}
+
+.contact .body .information {
+  display: flex;
+  flex-direction: column;
+  row-gap: 42px;
+  padding: 46px;
+  margin-top: 68px;
+}
+
+.contact .body .information > div {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.contact .body .information h2 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.contact .body .information p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  width: 212px;
+}

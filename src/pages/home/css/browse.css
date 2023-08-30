@@ -1,0 +1,30 @@
+.browse {
+  margin: 56px 126px 0px 131px;
+}
+.browse h1 {
+  text-align: center;
+}
+
+.browse .card {
+  margin-top: 62px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+
+.browse .card .img {
+  height: 480px;
+  width: 381px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.browse .card img {
+  height: 100%;
+}
+.browse .card p {
+  color: var(--font-color, #333);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 30px;
+}
